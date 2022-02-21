@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <h3>Cadastro da Liga dos Austronautas</h3>
+    <form>
+        <label for="fname">Nome:</label>
+        <input type="text" id="fname" name="fname">
+        <br><br>
+        <label for="user_email">Email:</label>
+        <input type="email" id="user_email" name="user_email">
+        <label for="user_password">Senha:</label>
+        <input type="password" id="user_password" name="user_password">
+        <br><br>
+
+        <label for="user_date">Data de Nascimento</label>
+        <input type="date" id="user_date" name="user_date">
+        <label for="user_image"> - Foto</label>
+        <input type="file" id="user_image" name="user_image"> 
+        <br><br>
+         
+        <label for="user_country">Nacialidade</label>
+        <select name="user_country" id="user_country">
+            <option value="user_country">Russo</option>
+            <option value="user_country">Americano</option>
+            <option value="user_country">Brasileiro</option>
+        </select>
+        <label>- Genero:</label>
+        <input type="radio" name="user_gender" id="Male" value="M">
+        <label for="user_gender">M</label>
+        <input type="radio" name="user_gender" id="Female" value="F">
+        <label for="user_gender">F</label>
+        <br><br>
+        <label>Suas principais qualidades</label><br>
+        <input type="checkbox" name="quality1" id="quality1" value="Resiliência">
+        <label for="quality1">Resiliência</label><br>       
+        <input type="checkbox" name="quality2" id="quality2" value="Força Física">
+        <label for="quality2">Força Física</label><br>       
+        <input type="checkbox" name="quality3" id="quality3" value="Inteligencia">
+        <label for="quality3">Inteligencia</label><br> 
+        <input type="checkbox" name="quality4" id="quality4" value="Educação">
+        <label for="quality4">Educação</label><br>       
+        <br><br>
+        <textarea name="user_description" id="user_description" placeholder="Porque você gostaria de se tornar um astronauta" ></textarea><br><br>
+        <input type="submit" value="Enviar">
+
+    </form>
+</body>
+</html>
